@@ -43,17 +43,15 @@ pip install mendeleev
 Clone the repository or download the script directly:
 
 ```bash
-git clone https://github.com/yourusername/element-properties-visualization.git
+git clone https://github.com/HenriqueCSJ/PTablePlot.git
 ```
-
-*(Replace `yourusername` with your GitHub username or provide the correct repository link.)*
 
 ## Usage
 
 Navigate to the directory containing the script and run it using Python:
 
 ```bash
-python element_visualization.py
+python PTablePlot.py
 ```
 
 ## How to Use the Application
@@ -106,6 +104,7 @@ python element_visualization.py
 ### Adjusting Plot Sizes
 
 - Modify the `width` and `height` parameters in the `MyMplCanvas` and `PeriodicTableCanvas` classes to change the sizes of the plots.
+
   ```python
   # Example: Increase the size of the property plot
   self.canvas = MyMplCanvas(self.main_widget, width=8, height=6, dpi=100)
@@ -115,6 +114,7 @@ python element_visualization.py
 
 - Customize colors, fonts, and styles within the plotting methods.
 - For example, to change the highlight color of the selected element in the periodic table:
+
   ```python
   if Z == atomic_number:
       color = "lightgreen"  # Change highlight color to light green
@@ -135,7 +135,7 @@ python element_visualization.py
 
 ## License
 
-*(Specify the license under which the project is released. For example, MIT License.)*
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
